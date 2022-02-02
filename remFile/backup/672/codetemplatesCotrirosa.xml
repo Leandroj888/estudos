@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="php_new_file_context" deleted="false" description="Simple php file" enabled="true" id="org.eclipse.php.ui.editor.templates.php.author" name="New simple PHP file">&lt;?php
+/** 
+ * Comentário de cabeçalho ${file}
+ * Definir aqui a função designada a esse arquivo
+ *
+ *
+ * @autor   	Leandro Jorge Junges &lt;analista@cotrirosa.com.br&gt; 
+ * @versão  	0.1 
+ * @licença 	Todos Direitos Reservados a Cotrirosa Copyright © ${year}
+ * @empresa 	Cooperativa Tritícola Santa Rosa Ltda - Cotrirosa 
+ * @setor   	Departamento de Tecnologia da Informação
+ * @acesso  	público 
+ * @codificação ${encoding}
+ * @linguagem   ${language} - PT/BR
+ * @criação     ${date} - ${time}
+ * @local       \
+ */
+?&gt;
+
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang="pt-br"&gt;
+	&lt;head&gt;
+		&lt;meta http-equiv="Content-Language" content="pt-br"&gt;
+		&lt;meta charset="utf-8"&gt;
+		&lt;title&gt;Primeiro Texto&lt;/title&gt;
+		&lt;link rel="icon" href="img/icopag.ico" type="image/x-icon" /&gt;
+		&lt;link rel="shortcut icon" href="img/icopag.ico" type="image/x-icon" /&gt;
+	&lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1&gt;Testando PHP\&lt;/h1&gt;
+    &lt;?php
+
+	?&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</template></templates>

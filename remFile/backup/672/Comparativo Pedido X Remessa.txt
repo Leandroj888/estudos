@@ -1,0 +1,33 @@
+Item da Nota de venda
+SELECT * FROM e140ipv WHERE CODEMP=1 AND CODFIL=2 and tnspro=5922 and NUMNFV=189553;
+
+Item da nota de remessa
+SELECT * FROM e140ipv WHERE CODEMP=1 AND CODFIL=2 AND tnspro=5117 and NUMNFV=255001 and filped=2 and numped=12017;
+codemp, codfil, codsnf, numnfv, tnspro, filped, numped
+
+Item do pedido
+select * from e120ipd join e140ipv on e120ipd.codemp=e140ipv.codemp and e120ipd.codfil=e140ipv.codfil and e120ipd.numped=e140ipv.numped
+where e120ipd.codemp=1 and e120ipd.codfil=2 and e120ipd.numped=12017
+
+Resultado
+select * from e120ipd 
+join e140ipv on e120ipd.codemp=e140ipv.codemp and e120ipd.codfil=e140ipv.codfil and e120ipd.numped=e140ipv.numped
+where e120ipd.codemp=1 and e120ipd.codfil=2 AND NUMPED=42
+/*
+preuni
+preven
+prebru
+
+preuni
+prebas
+prebru
+
+vlrbco
+vlriip
+vlriic
+vlrlpr
+vlrliq
+vlrfin
+preven
+prebru
+*/

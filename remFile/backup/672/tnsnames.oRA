@@ -1,0 +1,23 @@
+PROD =
+   (DESCRIPTION = (LOAD_BALANCE=ON) (FAILOVER=ON)
+       (ADDRESS=(PROTOCOL=TCP)(HOST=scan-prod.cotrirosa.com.br)(PORT=1521))
+       (CONNECT_DATA=
+          (SERVER = DEDICATED)
+          (SERVICE_NAME=prod.cotrirosa.com.br)
+          (FAILOVER_MODE =
+                (TYPE=SELECT)
+                (METHOD=BASIC)
+                (RETRIES=180)
+                (DELAY=5)
+          )
+      )
+  )
+
+TESTE =
+   (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = srvora02.cotrirosa.com.br)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = teste.cotrirosa.com.br)
+    )
+  )
